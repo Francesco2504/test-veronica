@@ -4,7 +4,7 @@ public class giocoImpiccato {
     private char[] progresso;
     private int vite;
 
-    public GiocoImpiccato(String parola, int viteIniziali) {
+    public giocoImpiccato(String parola, int viteIniziali) {
         this.parolaSegreta = parola.toUpperCase();
         this.vite = viteIniziali;
         this.progresso = new char[parolaSegreta.length()];
